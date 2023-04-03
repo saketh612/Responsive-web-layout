@@ -1,0 +1,767 @@
+@media screen and (max-width: 576px) {
+    body {
+        margin: 0;
+    }
+
+    #hero {
+        height: 1024px;
+        background-image: url(Back.svg);
+        background-color: rgba(33, 33, 33, 0.5);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        z-index: 1;
+
+    }
+
+    #hero::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(33, 33, 33, 0.6);
+        z-index: -1;
+    }
+
+
+    .hamburger-icon {
+
+        float: right;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 29px;
+        margin-top: 7.5px;
+
+    }
+
+    .hamburger-icon img {
+        display: block;
+        margin-bottom: 4.38px;
+    }
+
+
+    #Brand {
+
+
+
+
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 30.4px;
+        line-height: 37px;
+        /* identical to box height */
+        padding-left: 32px;
+        padding-top: 32px;
+
+
+
+
+        color: #FFFFFF;
+    }
+
+    #white-box {
+        background-color: white;
+        width: 90px;
+        height: 15px;
+        margin-top: 216px;
+        margin-left: 32px;
+    }
+
+    #main-context {
+        font-family: 'Libre Caslon Display';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 62px;
+        color: #FFFFFF;
+        text-align: left;
+        padding-left: 32px;
+        padding-top: 32px;
+    }
+
+    #subtext {
+
+        font-family: "Inter";
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+
+        color: #FFFFFF;
+        padding-left: 32px;
+        margin-top: 32px;
+        text-align: left;
+
+    }
+
+    .button {
+        box-sizing: border-box;
+
+        width: 153px;
+        height: 42px;
+        border: 2px solid #FFFFFF;
+        border-radius: 10px;
+        background-color: transparent;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        margin-left: 32px;
+        margin-top: 32px;
+        color: white;
+        /* identical to box height */
+
+
+
+    }
+
+    #desktop
+    {
+        display: none;
+    }
+
+    #reads {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        margin-left: 32px;
+        margin-top: 78px;
+        margin-bottom: 78px;
+    }
+
+    #News {
+        max-width: 315px;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 32px;
+    }
+
+    .card {
+        border: 1px solid #DDDDDD;
+        border-radius: 4px;
+    }
+
+    .card>img {
+        object-fit: cover;
+        width: 100%;
+        height: 352px;
+    }
+
+    /* .card {
+        height: 619px;
+        margin: 32px auto;
+        max-width: 311px;
+        border: 1px solid #DDDDDD;
+        border-radius: 4px;
+
+    } */
+
+    .date {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 16px;
+        /* identical to box height */
+
+
+        color: #B7B7B7;
+        margin-top: 35px;
+        margin-bottom: 28px;
+        padding-left: 32px;
+
+    }
+
+    .data {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+
+        color: #000000;
+        margin-bottom: 18px;
+        text-align: left;
+        padding-left: 32px;
+
+    }
+
+    .link {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 550;
+        font-size: 15px;
+        line-height: 18px;
+
+        color: #D9852C;
+        text-align: right;
+        padding-right: 32px;
+        margin-bottom: 32px;
+
+    }
+
+    #header {
+        display: none;
+    }
+
+    #main-context-1
+    {
+        display: none;
+    }
+
+    .card:hover {
+        cursor: pointer;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    
+
+}
+
+@media screen and (min-width: 576px) and (max-width:991px) {
+
+    body {
+        margin: 0;
+    }
+
+    #hero {
+        height: 1024px;
+        background-image: url(Back-1.svg);
+        background-color: rgba(33, 33, 33, 0.5);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        z-index: 1;
+
+    }
+
+    #hero::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(33, 33, 33, 0.6);
+        z-index: -1;
+    }
+
+
+    .hamburger-icon {
+
+        float: right;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 29px;
+        margin-top: 7.5px;
+
+    }
+
+    .hamburger-icon img {
+        display: block;
+        margin-bottom: 4.38px;
+    }
+
+
+    #Brand {
+
+
+
+
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 30.4px;
+        line-height: 37px;
+        /* identical to box height */
+        padding-left: 32px;
+        padding-top: 32px;
+
+
+
+
+        color: #FFFFFF;
+    }
+
+    #white-box {
+        background-color: white;
+        width: 90px;
+        height: 15px;
+        margin-top: 216px;
+        margin-left: 32px;
+    }
+
+   
+
+    #subtext {
+
+        font-family: "Inter";
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+
+        color: #FFFFFF;
+        padding-left: 32px;
+        margin-top: 32px;
+        text-align: left;
+
+    }
+
+    #subtext br:first-child {
+        display: none !important;
+    }
+
+    .button {
+        box-sizing: border-box;
+
+        width: 153px;
+        height: 42px;
+        border: 2px solid #FFFFFF;
+        border-radius: 10px;
+        background-color: transparent;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        margin-left: 32px;
+        margin-top: 32px;
+        color: white;
+        /* identical to box height */
+
+
+
+    }
+
+    #desktop
+    {
+        display:none;
+    }
+
+    #reads {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        margin-left: 32px;
+        margin-top: 78px;
+        margin-bottom: 78px;
+    }
+
+    #News {
+        max-width: 685px;
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 20px;
+    }
+
+    .card {
+        border: 1px solid #DDDDDD;
+        border-radius: 4px;
+        width: calc((100%-20px)/3);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card>img {
+        object-fit: cover;
+        width: 100%;
+        height: 352px;
+    }
+
+    .card:hover {
+        cursor: pointer;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    /* .card {
+        height: 619px;
+        margin: 32px auto;
+        max-width: 311px;
+        border: 1px solid #DDDDDD;
+        border-radius: 4px;
+
+    } */
+
+    .date {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+
+        /* identical to box height */
+
+
+        color: #B7B7B7;
+        margin-top: 35px;
+        margin-bottom: 28px;
+        padding-left: 32px;
+
+    }
+
+    .data {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+
+        color: #000000;
+        margin-bottom: 28px;
+        padding-left: 32px;
+        padding-right: 32px;
+        height: 270px;
+
+    }
+
+    .data br {
+        display: none !important;
+    }
+
+    .link {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 550;
+        font-size: 15px;
+        line-height: 18px;
+
+        color: #D9852C;
+        padding-right: 32px;
+        margin-bottom: 32px;
+        align-self: flex-end;
+
+    }
+
+    #header {
+        display: none;
+    }
+
+    #main-context
+    {
+        display: none !important;
+    }
+    #main-context-1
+    {
+        font-family: 'Libre Caslon Display';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 70px;
+        line-height: 87px;
+
+        color: #FFFFFF;
+        text-align: left;
+        padding-left: 32px;
+        padding-top: 32px;
+    }
+}
+
+
+@media screen and (min-width: 991px) {
+
+    body {
+        margin: 0;
+    }
+
+    #hero {
+        height: 1024px;
+        background-image: url(Background.png);
+        background-color: rgba(33, 33, 33, 0.5);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        z-index: 1;
+      
+
+    }
+
+    #header {
+        align-self: flex-end;
+        display: flex;
+        flex-direction: row;
+        gap: 35px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        /* identical to box height */
+
+
+        color: #FFFFFF;
+        align-items: center;
+        float:right;
+        margin-top: 28px;
+        margin-right: 27px;
+        
+        
+    }
+
+    #hero::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(33, 33, 33, 0.6);
+        z-index: -1;
+    }
+
+
+    .hamburger-icon {
+
+        float: right;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 29px;
+        margin-top: 7.5px;
+        display: none;
+
+    }
+
+    .hamburger-icon img {
+        display: block;
+        margin-bottom: 4.38px;
+    }
+
+
+    #Brand {
+
+
+
+
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 30.4px;
+        line-height: 37px;
+        /* identical to box height */
+        margin-left: 32px;
+      
+
+
+
+
+        color: #FFFFFF;
+        padding-top: 32px;
+        
+    }
+
+    
+    #white-box {
+        background-color: white;
+        width: 90px;
+        height: 15px;
+        margin-top: 216px;
+        margin-left: 32px;
+    }
+
+    #main-context {
+        font-family: 'Libre Caslon Display';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 80px;
+        line-height: 99px;
+
+        color: #FFFFFF;
+        text-align: left;
+        padding-left: 32px;
+        padding-top: 32px;
+        display: none;
+    }
+
+    #main-context-1
+    {
+        font-family: 'Libre Caslon Display';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 80px;
+        line-height: 99px;
+
+        color: #FFFFFF;
+        text-align: left;
+        padding-left: 32px;
+        padding-top: 32px;
+    }
+
+    #main-context br:first-of-type {
+        display: none !important;
+    }
+
+    #subtext {
+
+        font-family: "Inter";
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+
+        color: #FFFFFF;
+        padding-left: 32px;
+        margin-top: 32px;
+        text-align: left;
+
+    }
+
+    #subtext br:first-child {
+        display: none !important;
+    }
+
+    .button {
+        box-sizing: border-box;
+
+        width: 153px;
+        height: 42px;
+        border: 2px solid #FFFFFF;
+        border-radius: 10px;
+        background-color: transparent;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        margin-left: 32px;
+        margin-top: 32px;
+        color: white;
+        /* identical to box height */
+        
+
+
+
+    }
+
+    #desktop
+    {
+        box-sizing: border-box;
+
+        width: 153px;
+        height: 42px;
+        border: 2px solid #FFFFFF;
+        border-radius: 10px;
+        background-color: transparent;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: white;
+    }
+
+    #reads {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        margin-left: 32px;
+        margin-top: 78px;
+        margin-bottom: 78px;
+    }
+
+    #News {
+        max-width: 1250px;
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 20px;
+    }
+
+    .card {
+        border: 1px solid #DDDDDD;
+        border-radius: 4px;
+        width: calc((100%-20px)/3);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card:hover {
+        cursor: pointer;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .card>img {
+        object-fit: cover;
+        width: 100%;
+        height: 352px;
+    }
+
+    /* .card {
+        height: 619px;
+        margin: 32px auto;
+        max-width: 311px;
+        border: 1px solid #DDDDDD;
+        border-radius: 4px;
+
+    } */
+
+    .date {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+
+        /* identical to box height */
+
+
+        color: #B7B7B7;
+        margin-top: 35px;
+        margin-bottom: 28px;
+        padding-left: 32px;
+
+    }
+
+    .data {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30px;
+
+        color: #000000;
+        margin-bottom: 28px;
+        padding-left: 32px;
+        padding-right: 32px;
+        height: 270px;
+
+    }
+
+    .data br {
+        display: none !important;
+    }
+
+    .link {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 550;
+        font-size: 15px;
+        line-height: 18px;
+
+        color: #D9852C;
+        padding-right: 32px;
+        margin-bottom: 32px;
+        align-self: flex-end;
+
+    }
+
+}
