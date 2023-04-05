@@ -132,9 +132,12 @@
         font-weight: 700;
         font-size: 24px;
         line-height: 29px;
-        margin-left: 32px;
+        /* margin-left: 32px;
         margin-top: 78px;
-        margin-bottom: 78px;
+        margin-bottom: 78px; */
+        max-width: 315px;
+        margin: 78px auto;
+
     }
 
     #News {
@@ -357,9 +360,11 @@
         font-weight: 700;
         font-size: 24px;
         line-height: 29px;
-        margin-left: 32px;
+        /* margin-left: 32px;
         margin-top: 78px;
-        margin-bottom: 78px;
+        margin-bottom: 78px; */
+        max-width: 685px;
+        margin:78px auto;
     }
 
     #News {
@@ -672,10 +677,12 @@
         font-weight: 700;
         font-size: 40px;
         line-height: 48px;
-        margin-left: 47px;
+        /* margin-left: 47px;
         margin-top: 78px;
-        margin-bottom: 78px;
-        text-align: left;
+        margin-bottom: 78px; */
+        max-width: 1250px;
+        margin :78px auto;
+        
     }
 
     #News {
